@@ -56,7 +56,7 @@ const projects: Project[] = [
   {
     title: "Online Supplier Management Web App",
     description:
-      "A 2nd year group project — a single system to manage suppliers, orders, and stock.",
+      "A 2nd year group project a single system to manage suppliers, orders, and stock.",
     bullets: [
       "Live stock updates and automated ordering processes",
       "MVC architecture for clean separation of concerns",
@@ -68,7 +68,7 @@ const projects: Project[] = [
   {
     title: "Hotel Reservation System for Weddings",
     description:
-      "A 1st year group project — a web platform for booking wedding venues.",
+      "A 1st year group project a web platform for booking wedding venues.",
     bullets: [
       "Streamlined availability checks, reservations, and payments",
       "Admin controls for bookings, pricing, and customer data",
