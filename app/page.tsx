@@ -5,7 +5,7 @@ const skillGroups = [
   {
     title: "Frontend",
     color: "sky" as const,
-    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML", "CSS", "JavaScript" , "Figma"],
+    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML", "CSS", "JavaScript"],
   },
   {
     title: "Backend",
@@ -20,7 +20,7 @@ const skillGroups = [
   {
     title: "DevOps & Tools",
     color: "emerald" as const,
-    skills: ["Docker", "Git", "Linux", "Shell Scripting", "Visual Studio Code"],
+    skills: ["Docker", "Git", "Linux", "Shell Scripting", "Visual Studio Code","Figma"],
   },
   {
     title: "Currently Learning",
