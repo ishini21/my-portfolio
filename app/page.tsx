@@ -3,29 +3,36 @@ import SkillBadge from "@/components/SkillBadge";
 
 const skillGroups = [
   {
-    title: "Frontend",
-    color: "sky" as const,
-    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML", "CSS", "JavaScript"],
+    title: "DevOps & Cloud",
+    color: "emerald" as const,
+    skills: [
+      "Linux",
+      "Shell Scripting",
+      "Docker",
+      "Docker Compose",
+      "Kubernetes",
+      "Jenkins",
+      "CI/CD",
+      "Terraform",
+      "AWS",
+      "Nginx",
+      "Git & GitHub",
+    ],
   },
   {
-    title: "Backend",
-    color: "indigo" as const,
-    skills: ["Node.js", "Express.js", "ASP.NET", "C#", "PHP", "Python", "Java"],
+    title: "Monitoring & Observability",
+    color: "amber" as const,
+    skills: ["Prometheus", "Grafana", "PromQL", "Alerting"],
+  },
+  {
+    title: "Software Development",
+    color: "sky" as const,
+    skills: ["Python", "JavaScript", "TypeScript", "Node.js", "React", "Next.js", "ASP.NET Core", "Java"],
   },
   {
     title: "Databases",
     color: "violet" as const,
     skills: ["MongoDB", "MySQL", "Microsoft SQL Server"],
-  },
-  {
-    title: "DevOps & Tools",
-    color: "emerald" as const,
-    skills: ["Docker", "Git", "Linux", "Shell Scripting", "Visual Studio Code","Figma"],
-  },
-  {
-    title: "Currently Learning",
-    color: "amber" as const,
-    skills: ["Kubernetes", "Ansible", "Terraform", "Prometheus", "Grafana", "CI/CD"],
   },
 ];
 
@@ -42,7 +49,7 @@ export default function HomePage() {
           {/* Section label */}
           <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-indigo-400">About me</p>
           <h2 className="mb-8 text-3xl font-bold text-white">
-            The person behind the code
+            From building software to shipping it reliably
           </h2>
 
           <div className="grid gap-10 md:grid-cols-2">
@@ -62,20 +69,22 @@ export default function HomePage() {
               </div>
 
               <p>
-                I&apos;m a fresh BSc (Hons) IT graduate from{" "}
+                I&apos;m a BSc (Hons) IT graduate from{" "}
                 <span className="text-slate-200 font-medium">SLIIT</span>, specialised in
-                Software Engineering. Over four years I built everything from REST APIs and
-                full-stack MERN apps.
+                Software Engineering, with internship experience building production
+                full-stack systems and APIs.
               </p>
               <p>
-                Right now I&apos;m seeking a{" "}
-                <span className="text-indigo-300 font-medium">Software Engineering internship</span>{" "}
-                where I can contribute to real products and grow with a team. In parallel, I&apos;m
-                working through a structured DevOps curriculum (Linux → Docker → Kubernetes →
-                Ansible/Terraform).
+                I&apos;m now focused on becoming an{" "}
+                <span className="text-indigo-300 font-medium">entry-level DevOps Engineer</span>.
+                Keep growing through self-directed learning in CI/CD, containerization,
+                Kubernetes and Infrastructure as Code.
               </p>
               <p>
-                I communicate clearly in both English and Sinhala,care about writing code that is readable and maintainable.
+                My software engineering background helps me work closely with developers and
+                understand the applications I help deliver. I communicate clearly in English
+                and Sinhala, and I care about automation, reliability and maintainable
+                systems.
               </p>
             </div>
 
@@ -86,8 +95,7 @@ export default function HomePage() {
                 { label: "University", value: "SLIIT, Malabe" },
                 { label: "Graduation", value: "2026" },
                 { label: "Location", value: "Colombo, Sri Lanka" },
-                { label: "Seeking", value: "SE Internship" },
-                // { label: "Next goal", value: "DevOps Engineer (4–5 months)" },
+                { label: "Seeking", value: "Entry-level DevOps Engineer" },
                 { label: "Languages", value: "English · Sinhala" },
               ].map(({ label, value }) => (
                 <div key={label} className="flex justify-between gap-4 border-b border-white/5 pb-3 last:border-0 last:pb-0">
